@@ -18,7 +18,7 @@ const Business = () => {
   return (
     <section id="features" className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>Faça alguém feliz<br className="sm:block hidden"/>hoje mesmo! </h2>
+        <h2 className={styles.heading2}>Faça alguém feliz <br className="sm:block hidden"/>hoje mesmo! </h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>Na Gift Card Shop, entendemos a importância de presentear com algo especial. Por isso, oferecemos uma ampla seleção de gift cards para PlayStation, Xbox, Nintendo, Steam, serviços de streaming, restaurantes e muito mais! Com apenas alguns cliques, você pode encontrar o presente ideal para qualquer ocasião.</p>
         {/* <Button styles="mt-10" /> */}
       </div>

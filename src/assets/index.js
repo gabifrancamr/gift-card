@@ -23,6 +23,10 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import qrcode from "./qrcode.png"
+import robotFace from "./robotFace.png"
+import girl from "./girl.png"
+import robotHand from "./robotHand.png"
 
 export {
   airbnb,
@@ -50,4 +54,8 @@ export {
   people01,
   people02,
   people03,
+  qrcode,
+  robotFace,
+  girl,
+  robotHand
 };
