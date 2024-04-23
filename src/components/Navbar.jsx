@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
       <div className='flex gap-3 items-center'>
-        <img src='/lines.png' alt="hoobank" className="w-[40px] h-auto" />
+        <img src={logo} alt="giftCard" className="w-[40px] h-auto" />
         <span className='text-white font-poppins'>Gift Card Shop</span>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">

@@ -7,11 +7,14 @@ const Footer = () => {
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full `}>
         <div className="flex-1 flex flex-col justify-start mr-10">
-          <h1 className="text-white">Gift Card Shop</h1>
+          <div className='flex gap-3 items-center'>
+            <img src={logo} alt="giftCard" className="w-[40px] h-auto" />
+            <span className='text-white font-poppins'>Gift Card Shop</span>
+          </div>
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>Para todos os gostos.</p>
         </div>
 
-        <div className="flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10">
+        <div className="flex-[1.5] w-full flex flex-row md:justify-end gap-10 flex-wrap md:mt-0 mt-10">
           {footerLinks.map((footerLink) => (
             <div className="flex flex-col ss:my-0 my-4 min-w-[150px]" key={footerLink.id}>
               <h4 className="font-poppins font-medium text-[18px] leading-[27px] text-white">
@@ -20,7 +23,9 @@ const Footer = () => {
               <ul className="list-none mt-4">
                 {footerLink.links.map((link, index) => (
                   <li key={link.name} className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${index !== footerLink.links.length - 1 ? 'mb-4': 'mb-0'}`}>
-                    {link.name}
+                    <a href={`#${link.id}`}>
+                      {link.name}
+                    </a>
                   </li>
                 ))}
               </ul>

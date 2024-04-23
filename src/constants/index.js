@@ -7,15 +7,19 @@ export const navLinks = [
   },
   {
     id: "features",
-    title: "Features",
+    title: "Benefícios",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "brands",
+    title: "Marcas",
   },
   {
-    id: "clients",
-    title: "Clients",
+    id: "howItWorks",
+    title: "Como funciona",
+  },
+  {
+    id: "depo",
+    title: "Depoimentos",
   },
 ];
 
@@ -42,6 +46,14 @@ export const features = [
       "Compre sem sair de casa e receba o código do seu gift card diretamente no seu email em questão de minutos. É rápido, fácil e sem complicações!",
   },
 ];
+
+export const tutorial = [
+  {
+    id: 1,
+    title: '',
+    content: '',
+  }
+]
 
 export const feedback = [
   {
@@ -91,66 +103,40 @@ export const stats = [
 export const footerLinks = [
   {
     id: 1,
-    title: "Useful Links",
+    title: "Links úteis",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
+        name: "Sobre nós",
         link: "https://www.hoobank.com/explore/",
+        id: "home",
       },
       {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
+        name: "Marcas",
+        link: "https://www.hoobank.com/content/",
+        id: "brands",
+      },
+      {
+        name: "Como Funciona",
+        link: "https://www.hoobank.com/how-it-works/",
+        id: "howItWorks",
+      },
+      {
+        name: "Depoimentos",
+        link: "https://www.hoobank.com/create/",
+        id: "depo",
       },
     ],
   },
   {
     id: 2,
-    title: "Community",
+    title: "Fale conosco",
     links: [
       {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
-    ],
-  },
-  {
-    id: 3,
-    title: "Partner",
-    links: [
-      {
-        name: "Our Partner",
+        name: "Email e Telefone",
         link: "https://www.hoobank.com/our-partner/",
       },
       {
-        name: "Become a Partner",
+        name: "Perguntas frequentes",
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
