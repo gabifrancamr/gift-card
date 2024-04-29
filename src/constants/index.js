@@ -49,10 +49,25 @@ export const features = [
 
 export const tutorial = [
   {
-    id: 1,
-    title: '',
-    content: '',
-  }
+    id: "tutorial-1",
+    title: 'Escolha seu Gift Card',
+    content: 'Navegue pela nossa seleção de gift cards para PlayStation, Xbox, Nintendo, Steam, serviços de streaming, restaurantes e muito mais. Encontre o presente perfeito para quem você ama!',
+  },
+  {
+    id: "tutorial-2",
+    title: 'Faça seu pedido',
+    content: 'Clique no gift card desejado e siga as instruções para concluir o processo de compra. Aceitamos diversos métodos de pagamento seguros para sua conveniência.',
+  },
+  {
+    id: "tutorial-3",
+    title: 'Receba seu código por e-mail',
+    content: 'Após a confirmação do pagamento, você receberá o código do seu gift card diretamente no seu e-mail cadastrado. Não há necessidade de esperar pelo correio ou se preocupar com prazos de entrega!',
+  },
+  {
+    id: "tutorial-4",
+    title: 'Resgate e desfrute',
+    content: 'Use o código recebido para resgatar o seu gift card na plataforma correspondente. É rápido, fácil e conveniente!',
+  },
 ]
 
 export const feedback = [
@@ -107,22 +122,18 @@ export const footerLinks = [
     links: [
       {
         name: "Sobre nós",
-        link: "https://www.hoobank.com/explore/",
         id: "home",
       },
       {
         name: "Marcas",
-        link: "https://www.hoobank.com/content/",
         id: "brands",
       },
       {
         name: "Como Funciona",
-        link: "https://www.hoobank.com/how-it-works/",
         id: "howItWorks",
       },
       {
         name: "Depoimentos",
-        link: "https://www.hoobank.com/create/",
         id: "depo",
       },
     ],
@@ -133,11 +144,9 @@ export const footerLinks = [
     links: [
       {
         name: "Email e Telefone",
-        link: "https://www.hoobank.com/our-partner/",
       },
       {
         name: "Perguntas frequentes",
-        link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
   },

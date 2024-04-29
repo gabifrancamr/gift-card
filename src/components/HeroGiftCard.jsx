@@ -13,7 +13,7 @@ export function HeroGiftCard() {
                 </div>
 
                 <div className="flex justify-center">
-                    <img src={robotFace} className="h-[150px]" alt="" />
+                    <img src="/robotFace.png" className="h-[150px]" alt="" />
                 </div>
             </div>
 
