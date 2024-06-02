@@ -1,4 +1,15 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -50,25 +61,29 @@ export const features = [
 export const tutorial = [
   {
     id: "tutorial-1",
-    title: 'Escolha seu Gift Card',
-    content: 'Navegue pela nossa seleção de gift cards para PlayStation, Xbox, Nintendo, Steam, serviços de streaming, restaurantes e muito mais. Encontre o presente perfeito para quem você ama!',
+    title: "Escolha seu Gift Card",
+    content:
+      "Navegue pela nossa seleção de gift cards para PlayStation, Xbox, Nintendo, Steam, serviços de streaming, restaurantes e muito mais. Encontre o presente perfeito para quem você ama!",
   },
   {
     id: "tutorial-2",
-    title: 'Faça seu pedido',
-    content: 'Clique no gift card desejado e siga as instruções para concluir o processo de compra. Aceitamos diversos métodos de pagamento seguros para sua conveniência.',
+    title: "Faça seu pedido",
+    content:
+      "Clique no gift card desejado e siga as instruções para concluir o processo de compra. Aceitamos diversos métodos de pagamento seguros para sua conveniência.",
   },
   {
     id: "tutorial-3",
-    title: 'Receba seu código por e-mail',
-    content: 'Após a confirmação do pagamento, você receberá o código do seu gift card diretamente no seu e-mail cadastrado. Não há necessidade de esperar pelo correio ou se preocupar com prazos de entrega!',
+    title: "Receba seu código por e-mail",
+    content:
+      "Após a confirmação do pagamento, você receberá o código do seu gift card diretamente no seu e-mail cadastrado. Não há necessidade de esperar pelo correio ou se preocupar com prazos de entrega!",
   },
   {
     id: "tutorial-4",
-    title: 'Resgate e desfrute',
-    content: 'Use o código recebido para resgatar o seu gift card na plataforma correspondente. É rápido, fácil e conveniente!',
+    title: "Resgate e desfrute",
+    content:
+      "Use o código recebido para resgatar o seu gift card na plataforma correspondente. É rápido, fácil e conveniente!",
   },
-]
+];
 
 export const feedback = [
   {
@@ -94,24 +109,6 @@ export const feedback = [
     name: "Kenn Gallagher",
     title: "Cliente",
     img: people03,
-  },
-];
-
-export const stats = [
-  {
-    id: "stats-1",
-    title: "Opções",
-    value: "+100",
-  },
-  {
-    id: "stats-2",
-    title: "Empresas",
-    value: "+20",
-  },
-  {
-    id: "stats-3",
-    title: "Variados",
-    value: "Preços",
   },
 ];
 
@@ -145,9 +142,6 @@ export const footerLinks = [
       {
         name: "Email e Telefone",
       },
-      {
-        name: "Perguntas frequentes",
-      },
     ],
   },
 ];
@@ -172,24 +166,5 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
-  },
-];
-
-export const clients = [
-  {
-    id: "client-1",
-    logo: coinbase,
-  },
-  {
-    id: "client-2",
-    logo: binance,
-  },
-  {
-    id: "client-3",
-    logo: coinbase,
-  },
-  {
-    id: "client-4",
-    logo: dropbox,
   },
 ];
