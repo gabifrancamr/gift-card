@@ -140,7 +140,10 @@ export const footerLinks = [
     title: "Fale conosco",
     links: [
       {
-        name: "Email e Telefone",
+        name: "Email",
+      },
+      {
+        name: "Telefone",
       },
     ],
   },
