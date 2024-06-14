@@ -14,9 +14,21 @@ const Billing = () => {
     >
       <div className={`w-full ${layout.sectionImgReverse}`}>
         <div className="flex flex-col  gap-4">
-          <GiftCard img={netflix} title="Netflix" />
+          <GiftCard
+            img={netflix}
+            title="Netflix"
+            text="O sistema de streaming Netflix tem o maior acervo de filmes e séries para todos os gostos. 
+            Caso seja membro você pode utilizar o cartão presente para pagar sua fatura ou caso não seja assinante poderá resgatar o código para uma nova assinatura."
+            code="GRY3T7DCA8IO6E"
+          />
           <div className="hidden md:block">
-            <GiftCard img={spotify} title="Spotify" />
+            <GiftCard
+              img={spotify}
+              title="Spotify"
+              text="Com os Gift Card Spotify, você terá acesso ao Spotify Premium de 6 meses, onde permite que você curta suas músicas favoritas com a melhor qualidade de som e claro sem anúncios! Com sua conta Spotify Premium você também pode baixar suas músicas favoritas e ouvir offline direto pelo aplicativo sem limitações."
+              code="DU3SL0YVZALIYF"
+              styles
+            />
           </div>
         </div>
 

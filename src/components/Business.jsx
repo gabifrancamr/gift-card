@@ -31,7 +31,7 @@ const Business = () => {
           Faça alguém feliz <br className="sm:block hidden" />
           hoje mesmo!{" "}
         </h2>
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph} lg:max-w-[470px] mt-5`}>
           Na Gift Card Shop, entendemos a importância de presentear com algo
           especial. Por isso, oferecemos uma ampla seleção de gift cards
           customizáveis para PlayStation, Xbox, Nintendo, Steam, serviços de
