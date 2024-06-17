@@ -104,7 +104,7 @@ function ProductSlider() {
         <SwiperSlide>
           <div className='mb-30 text-center'>
             <img className="cursor-pointer" src={xbox} alt="slide_image" />
-            <h2 className='mt-10 text-5xl'>X Box</h2>
+            <h2 className='mt-10 text-5xl'>XBox</h2>
           </div>
         </SwiperSlide>
         <SwiperSlide>
@@ -128,7 +128,7 @@ function ProductSlider() {
         <SwiperSlide>
           <div className='mb-30 text-center'>
             <img className="cursor-pointer" src={ifood} alt="slide_image" />
-            <h2 className='mt-10 text-5xl'>IFOOD</h2>
+            <h2 className='mt-10 text-5xl'>iFood</h2>
           </div>
         </SwiperSlide>
         <SwiperSlide>

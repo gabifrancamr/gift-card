@@ -3,7 +3,7 @@ import { QrCode } from "lucide-react";
 import { IoIosHeart } from "react-icons/io";
 import HeartBackground from "./HeartBackground";
 
-export function GiftCard({ img, title, text, code, styles }) {
+export function GiftCard({ img, title, text, code, styles, price }) {
   return (
     <div className="flex flex-col">
       <div className="h-[500px] w-[400px] bg-gray-400 rounded-xl bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-20 p-8 z-20">
@@ -27,7 +27,10 @@ export function GiftCard({ img, title, text, code, styles }) {
         <div className="bg-slate-500 rounded-md flex justify-between items-start p-6 mt-8 transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 cursor-pointer z-20">
           <div className="flex flex-1 flex-col max-w-[300px]">
             <h2 className="font-bold text-purple-700">{code}</h2>
-            <h2 className="font-bold">{title}</h2>
+            <div className="flex gap-3">
+              <h2 className="font-bold">{title}</h2>
+              <span className="font-bold">R${price}</span>
+            </div>
             <p className="text-xl mt-2">{text}</p>
           </div>
           <QrCode size={48} />
