@@ -89,7 +89,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Fiquei impressionado com a rapidez e facilidade de comprar na Gift Card Shop. Recebi o código por e-mail em segundos e pude resgatá-lo imediatamente. Recomendo a todos!",
+      "Fiquei impressionada com a rapidez e facilidade de comprar na Gift Card Shop. Recebi o código por e-mail em segundos e pude resgatá-lo imediatamente. Recomendo a todos!",
     name: "Joana S",
     title: "Cliente",
     img: people01,
@@ -97,7 +97,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Comprei um gift card para meu filho no Gift Card Shop e ele adorou! Fiquei feliz em poder dar a ele a liberdade de escolher exatamente o que queria. Definitivamente vou comprar novamente!",
+      "Comprei um gift card para meu filho na Gift Card Shop e ele adorou! Fiquei feliz em poder dar a ele a liberdade de escolher exatamente o que queria. Definitivamente vou comprar novamente!",
     name: "Steve Mark",
     title: "Cliente",
     img: people02,
@@ -105,7 +105,7 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "Fiquei impressionado com a variedade disponível na Gift Cards Shop. Encontrei exatamente o que estava procurando e o processo de compra foi rápido e fácil. Além disso, o suporte ao cliente foi excepcional. Com certeza vou comprar novamente!",
+      "Fiquei impressionado com a variedade disponível na Gift Card Shop. Encontrei exatamente o que estava procurando e o processo de compra foi rápido e fácil. Além disso, o suporte ao cliente foi excepcional. Com certeza vou comprar novamente!",
     name: "Kenn Gallagher",
     title: "Cliente",
     img: people03,
